@@ -209,15 +209,17 @@ i {
 /* Neon Button */
 
 #button-wrap-l {
-    position: fixed;
-    bottom: 75px;
-    left: 45px;
+    position: relative;
+    top: 75px;
+    margin-left: 45px;
+    float: left;
 }
 
 #button-wrap-r {
-    position: fixed;
-    bottom: 75px;
-    right:45px;
+    position: relative;
+    top: 75px;
+    margin-right: 45px;
+    float: right;
 }
 
 .neon-button {
