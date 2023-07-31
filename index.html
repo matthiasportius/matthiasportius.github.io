@@ -1,39 +1,147 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="description" content="GitHub website of Matthias Portius">
     <meta name="author" content="Matthias Portius">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/9c9362fd64.js" crossorigin="anonymous"></script>
     <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Website</title>
-  </head>
-
-  <body>
-    <header>
-      <h1>Header</h1>
-    </header>
-
-    <!-- <nav id="IDnav">
-      <a href="#" class="active">HOME</a>
-      <a href="#">BLOG</a>
-      <a href="about.html">ABOUT ME</a>
-      <a href="#">CONTACT</a>
-      <a href="#">MORE</a>
-      <a href="#" class="icon" onclick="functionnav()"><i class="fa fa-bars"></i></a>
-    </nav> -->
-
-    <footer>
-      <address>
-        This Website was made as a showcase by Matthias Portius.<br>
-        Get in touch: 
-        <a href="mailto:Matthias.Portius@gmx.de" title="Matthias.Portius@gmx.de"><i class="fas fa-envelope fa-fw"></i></a>
-        <a href="https://www.linkedin.com/in/matthias-portius-61a3181a8" target="_blank"><i class="fab fa-linkedin fa-fw"></i></a>
-        <a href="https://github.com/matthiasportius" target="_blank"><i class="fab fa-github fa-fw"></i></a>
-      </address>
-  </footer>
-</body>
-</html>
+    <script src="https://kit.fontawesome.com/9c9362fd64.js" crossorigin="anonymous"></script>
+    <title>Matthias Portius</title>
+</head>
+<body>
+    <h1>About Me</h1>
+    <div class="myself">
+        <!-- preliminary until img of me -->
+        <i class="fa-solid fa-user fa-7x me"></i>
+        <p>
+            Hello and welcome to my website. This site is the result of my occasional enthusiasm 
+            for front-end development. It currently serves as a place to introduce myself 
+            and all the things about me which could be <b>work-related</b>.<br>
+            <br>
+            I am a <b>PhD student</b> in Biochemistry with a <b>Master degree in Chemistry</b>. My interest in, well, 
+            pretty much everything IT-related was something I had already been aware of back when
+            I was in school. I remember trying to teach myself C when I was about 13 years old, 
+            having a tough time with the math in the tutorial. Also, this was probably the reason 
+            why I put this area on hold for quite some time after that.<br>
+            <br>
+            Anway, my interest in chemistry was at least as great back then. 
+            Eventually, I ended up studying chemistry and am working in this field ever since.<br>
+            <br>
+            However, some time before the corona pandemic, my <b>interest in the IT sector</b> grew again.
+            It started learning programming again by doing a Python tutorial via some app, but it 
+            was <b>Harvard's CS50</b> course that finally got me started. I read books, did some more
+            courses and started trying to program something <b>of my own</b>.<br>
+            <br>
+            Now, I am constantly motivated to further educate myself in this area. For more infos
+            about me, check out my other profiles on <b>LinkedIn</b> or <b>GitHub below</b>.
+        </p>
+    </div>
+    <h2 class="projects">My GitHub Projects</h2>
+    <div id="cards-wrap">
+        <div id="cards">
+            <div class="card">
+                <a class="card-a" href="https://github.com/matthiasportius/Python-Notes" target="_blank"></a>
+                <div class="card-content">
+                    <div class="card-image">   
+                        <i class="fa-regular fa-clipboard"></i>
+                    </div>
+                    <div class="card-info-wrapper">
+                        <div class="card-info">
+                            <div class="card-info-title">
+                                <h3>Python - Notes</h3>  
+                                <h4>These are the nootes I took while learning Python.</h4>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <a class="card-a" href="https://github.com/matthiasportius/CS50P-final-project" target="_blank"></a>
+                <div class="card-content">
+                    <div class="card-image">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="card-info-wrapper">
+                        <div class="card-info">
+                            <div class="card-info-title">
+                                <h3>Python - Filesearch</h3>  
+                                <h4>This was my final project for Harvards CS50P course.</h4>
+                            </div>    
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <a class="card-a" href="https://github.com/matthiasportius/data_management", target="_blank"></a>
+                <div class="card-content">
+                    <div class="card-image">
+                        <i class="fa-regular fa-file-lines"></i>
+                    </div>
+                    <div class="card-info-wrapper">
+                        <div class="card-info">
+                            <div class="card-info-title">
+                                <h3>Python - GUI</h3>  
+                                <h4>This is a personal project building a file conversion program with Tkinter.</h4>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <a class="card-a" href="https://github.com/matthiasportius/web_scraping", target="_blank"></a>
+                <div class="card-content">
+                    <div class="card-image">
+                        <i class="fa-solid fa-spider"></i>
+                    </div>
+                    <div class="card-info-wrapper">
+                        <div class="card-info">
+                            <div class="card-info-title">
+                                <h3>Python - Web Scraping</h3>  
+                                <h4>This is a personal project testing web scraping using requests and bs4.</h4>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <a class="card-a" href="https://github.com/matthiasportius/Flask-app", target="_blank"></a>
+                <div class="card-content">
+                    <div class="card-image">
+                        <i class="fa-regular fa-window-maximize"></i>
+                    </div>
+                    <div class="card-info-wrapper">
+                        <div class="card-info">
+                            <div class="card-info-title">
+                                <h3>Flask App</h3>  
+                                <h4>This is a personal project making a full-fledged Flask application.</h4>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <a class="card-a" href="#"></a>
+                <div class="card-content">
+                    <div class="card-image">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                    </div>
+                    <div class="card-info-wrapper">
+                    <div class="card-info">
+                        <div class="card-info-title">
+                            <h3>More in Progress</h3>  
+                            <h4>There's more to come...</h4>
+                        </div>    
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="button-wrap-l">
+        <a href="https://www.linkedin.com/in/matthias-portius-61a3181a8" class="neon-button">LinkedIn</a>
+    </div>
+    <div id="button-wrap-r">
+        <a href="https://github.com/matthiasportius" class="neon-button">GitHub</a>
+    </div>
+</body> 
